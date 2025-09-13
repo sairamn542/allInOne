@@ -1,7 +1,8 @@
 export const USER_API_ENDPOINT = "http://localhost:4000/api/v1/user"
+export const TWEET_API_ENDPOINT = "http://localhost:4000/v1/tweet"
 // export const USER_API_ENDPOINT = "https://twitter-backend-cdp4.onrender.com/api/v1/user"
-export const TWEET_API_ENDPOINT = "http://localhost:4000/api/v1/tweet"
 // export const TWEET_API_ENDPOINT = "https://twitter-backend-cdp4.onrender.com/api/v1/tweet"
+// lllllllllllllll
 export function timeSince(timestamp) {
   let time = Date.parse(timestamp);
   let now = Date.now();
